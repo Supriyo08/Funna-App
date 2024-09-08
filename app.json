@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "3m3d-project",
+    "slug": "3m3d-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Main.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#dae3f4"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "m.e.d.i.x"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "m.e.d.i.x"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "83ac767f-5d2e-40a4-b350-6a876d87f0cd"
+      }
+    }
+  }
+}
